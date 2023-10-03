@@ -1,3 +1,6 @@
+body  {
+    font-size: 20px;
+}
 a  {
     background-color: lightblue;
     color: rgb(71,69,69);
@@ -7,9 +10,46 @@ a  {
     text-align: center;
 
 }
+
+nav  {
+    display: flex;
+    justify-content: center;
+}
+
 a:hover  {
     background-color: darkgray;
+    color: white;
 }
+
 h1  {
     font-size: 1em;
+    text-align: center;
+}
+
+img  {
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+p  {
+    /*text align center*/
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.background  {
+    background: lightgray;
+}
+
+#primary  {
+    background: lightpink;
+}
+
+footer p  {
+    background-color: lightblue;
+    color: rgb(71,69,69);
+    width: 100%;
+    text-align: center;
 }
