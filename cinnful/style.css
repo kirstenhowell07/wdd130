@@ -30,7 +30,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color:905C4C;
     color: #905C4C;
     text-decoration: underline;
 }
@@ -163,7 +162,6 @@ p {
 
 .stand-mixer img {
     width: 500px;
-    justify-self: top;
 }
 
 .stand-mixer-text {
@@ -207,7 +205,7 @@ p {
 footer {
     background-color:#D8BCB6;
     color: #6C3A2C;
-    padding: 25px 50px;
+    padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -215,8 +213,8 @@ footer {
 }
 
 footer h3 {
-    font-size: 0.8em;
-    margin-top: -25px;
+    font-size: 0.7em;
+    margin-top: -30px;
 }
 
 footer a {
@@ -226,6 +224,7 @@ footer a {
 
 footer a:hover {
     color:#905C4C;
+    text-decoration: underline;
 }
 
 footer p {
