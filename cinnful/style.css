@@ -190,7 +190,7 @@ p {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
+    margin-top: 60px;
     border-radius: 5px;
 }
 
@@ -246,6 +246,117 @@ footer .social img {
     width: 80px;
     padding-top: 10px;
 }
+
+
+
+
+
+
+/* about us CSS */
+
+.about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.about-us-grid section {
+    text-align: center;
+}
+
+.about-us-title {
+    text-align: center;
+    margin-top: 20px;
+    color: #6C3A2C;
+    margin: 50px;
+    font-size: 2em;
+}
+
+.family-photo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.family-photo img {
+    width: 700px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 25px;
+}
+
+.about-us-text {
+    grid-column: 4/6;
+    grid-row: 1/2;
+    background:#D8BCB6;
+    border: 10px solid #6C3A2C;
+    padding: 25px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+.about-us-text h1 {
+    color: #6C3A2C;
+}
+
+.thank-you {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background:#D8BCB6;
+    border: 10px solid #6C3A2C;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.marching-band-card {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+}
+
+.marching-band-card img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.dyw-card {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.dyw-card img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.volleyball-card {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.volleyball-card img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.tahiti-card {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+.tahiti-card img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+
+
+
+
 
 
 /* web components CSS below */
