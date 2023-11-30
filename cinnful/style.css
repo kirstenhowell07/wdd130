@@ -305,7 +305,8 @@ footer .social img {
     grid-row: 2/3;
     background:#D8BCB6;
     border: 10px solid #6C3A2C;
-    padding: 25px;
+    padding: 80px;
+    padding-top: 50px;
     margin: 100px;
     margin-top: 20px;
 }
