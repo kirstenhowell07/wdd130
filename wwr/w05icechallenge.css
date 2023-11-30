@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(108, 108, 108);
+}
+
+a img {
+    width: 100%
+}
+
+#circle-images img {
+    border-radius: 50%;
+    width: 250px;
+    margin: 50px;
+    border: 10px solid rgb(62, 58, 58);
+}
+
+#circle-images {
+    text-align: center;
+}
