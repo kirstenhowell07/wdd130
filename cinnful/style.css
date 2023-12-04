@@ -373,6 +373,32 @@ footer .social img {
 
 
 
+/* place an order CSS */
+
+header {
+    text-align: center;
+}
+
+.order-text {
+    text-align: center;
+}
+
+.order-text p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.order-image img {
+    width: 200px;
+}
+
+form {
+    color:#6C3A2C;
+}
+
+
+
+
 /* web components CSS below */
 
 /* The grid: Four equal columns that floats next to each other */
